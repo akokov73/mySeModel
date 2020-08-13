@@ -14,8 +14,8 @@ def unique(list1):
 
 
 
-path  = 'C:\\Users\\akoko_000\\Downloads\\Demo\\Demo\\Model\\model.txt'
-path2  = 'C:\\Users\\akoko_000\\Downloads\\Demo\\Demo\\Model\\report.txt'
+path  = 'C:\\Users\\akoko_000\\Documents\\mySeModel\\mySeModel\\model.txt'
+path2  = 'C:\\Users\\akoko_000\\Documents\\mySeModel\\mySeModel\\report.txt'
 
 
 model_file = open(path,'r',encoding="utf8")
