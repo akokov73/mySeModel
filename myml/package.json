@@ -1,0 +1,25 @@
+{
+    "name": "myml",
+    "displayName": "MyMl",
+    "description": "my modelling language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "myml",
+            "aliases": ["MyMl", "myml"],
+            "extensions": [".txt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "myml",
+            "scopeName": "source.txt",
+            "path": "./syntaxes/myml.tmLanguage.json"
+        }]
+    }
+}
